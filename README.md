@@ -7,7 +7,7 @@ It shows real-time crypto prices, exchange listings, and chart-based visualizati
 
 > 👤 Project Owner: [Anuj Kumar](https://github.com/Anujkumar108)
 > 🛠️ Tech Stack: React · Chakra UI · Axios · Chart.js · React Router
-> 🔗 Live: [Coming Soon]
+> 🔗 Live: [https://bit-bharat.vercel.app/]
 
 ---
 
