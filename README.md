@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+# 💸 BitBharat - Bit Bharat is a modern and responsive cryptocurrency tracker web app built using ReactJS and styled with Chakra UI. It fetches real-time data from the CoinGecko API to show the latest prices, market rankings, and detailed charts of popular cryptocurrencies — all in an intuitive, mobile-friendly interface.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+A sleek, responsive cryptocurrency tracker built with **React**, **Chakra UI**, and **CoinGecko API**.
+It shows real-time crypto prices, exchange listings, and chart-based visualizations.
 
-In the project directory, you can run:
+> 👤 Project Owner: [Anuj Kumar](https://github.com/Anujkumar108)
+> 🛠️ Tech Stack: React · Chakra UI · Axios · Chart.js · React Router
+> 🔗 Live: [Coming Soon]
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📦 Tech Stack Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+| Technology | Description |
+|------------|-------------|
+| ⚛️ React | Frontend framework |
+| 🎨 Chakra UI | UI component library |
+| 🔀 React Router DOM | Routing between pages |
+| 📊 Chart.js + react-chartjs-2 | Chart visualizations |
+| ⚡ Axios | API data fetching |
+| 📈 CoinGecko API | Crypto market data |
+| 🎞️ Framer Motion | Animations |
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Setup Instructions
 
-### `npm run build`
+To run this project on your local system:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# 1. Clone the project
+git clone https://github.com/AnujKumar108/react-crypto-app.git
+cd react-crypto-app
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 2. Install dependencies
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# 3. Start the development server
+npm start
 
-### `npm run eject`
+Open http://localhost:3000 in your browser to view it.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🧪 Available Scripts
+Command	Description
+npm start -	Runs app in development mode
+npm run build -	Builds app for production
+npm test -	Launches test runner
+npm run eject -	Ejects configuration (irreversible)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🚀 Deployment Instructions
+✅ Vercel (Recommended)
+Install Vercel CLI
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+bash
+Copy code
+npm install -g vercel
+Run deployment
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+bash
+Copy code
+vercel
+Follow the prompts → Your app will go live ✨
 
-## Learn More
+You can also deploy to Netlify, GitHub Pages, or your own server.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📁 Folder Structure
+bash
+Copy code
+src/
+│
+├── components/        # Reusable UI components
+├── pages/             # Page-based views like Home, Exchanges
+├── assets/            # Images and icons
+├── App.js             # Main routing logic
+└── index.js           # React entry point
+🌐 API Reference
+All data is fetched from CoinGecko API, including:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+/coins/markets
 
-### Code Splitting
+/exchanges
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+/coins/{id}
 
-### Analyzing the Bundle Size
+🔮 Features to Explore
+Real-time market prices
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Exchange listings with trust score
 
-### Making a Progressive Web App
+Individual coin details
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Chart-based price history
 
-### Advanced Configuration
+Dark/light theme toggle
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Mobile responsive UI
 
-### Deployment
+🙌 Contribution
+Pull requests are welcome. For major changes, open an issue first.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🧑‍💻 Author
+Anuj Kumar
